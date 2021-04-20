@@ -125,3 +125,23 @@ h2 {
     height: 100%;
     font-family: 'Montserrat';
 }
+
+.FontNosotros {
+    font-size: 50px;
+    color: white;
+    font-family: 'fantasy';
+    display: flex;
+    width: 100%;
+    padding-left: 10%;
+    
+}
+.Descripcion,
+.ctn_imgSFM {
+    width: 50%;
+    padding-left: 15%
+}
+
+.ctn_imgSFM {
+    color: white;
+    padding-left: 25%;
+}
