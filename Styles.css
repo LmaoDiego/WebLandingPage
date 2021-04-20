@@ -10,33 +10,37 @@ body {
     background: linear-gradient(90deg, #ACB6E5 0%, #86FDE8 100%);
     min-height: 100vh;
 }
+
+div{
+    border: 2px solid;
+    border-color: green;
+}
 .contenedor {
     position: relative;
     height: 600px;
     display: flex;
     align-items: center;
-}
-
-.waveDerecha{
-    position: absolute;
-    top:0;
-    right: 0;
-    width: 10%;
-}
-.waveIzquierda {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 10%;
     
 }
+.bannerUp{
+    width: 100%
+}
+
+.cloud {
+    position: absolute;
+    top: 0;
+    
+    width: 100%;
+}
 .contenedor-textos{
-    flex-basis: 46%;
-    padding-left: 40px;
+    width: 50%;
     overflow: hidden;
     color: #fff;
 }
-
+.contenedor-imagen {
+    position: relative;
+    width: 50%;
+}
 .titulo{
 
     font-size: 50px;
@@ -50,15 +54,7 @@ body {
 
 .boton {
     background-color: mediumpurple;
-
-    margin-inline-end: 100px 0px 0px;
-    margin-right: 100px;
-    border: none;
-    border-radius: 5px;
-    color: #fff;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
     display: flex;
     font-size: 16px;
 }
+
