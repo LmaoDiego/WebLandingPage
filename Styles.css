@@ -139,11 +139,16 @@ h2 {
 
 .Descripcion,
 .ctn_imgSFM {
-    width: 50%;
-    padding-left: 15%
-}
 
+    width: 70%;
+    padding-left: 25%
+}
+.Descripcion {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: white;
+}
 .ctn_imgSFM {
     color: white;
-    padding-left: 25%;
+    padding-left: 43%;
 }
